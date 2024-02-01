@@ -208,6 +208,13 @@ button:hover {
   animation: animateUser 4s linear infinite;
 }
 
+@keyframes animateUser {
+  50% {
+    right: 30px;
+    top: -90px;
+  }
+}
+
 .imgbox::before {
   position: absolute;
   content: '';
